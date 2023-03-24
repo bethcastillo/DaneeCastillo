@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Questrial&display=swap');
+
+:root {
+    --background-color: #48233c;
+    --primary-color: #d4e4bc;
+    --header-color: #96acb7;
+    --card-background-color:  #36558f;
+    --card-image-color: #40376e;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: var(--background-color);
+    font-family: 'Questrial';
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    color: var(--header-color);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 0;
+    background-color: var(--card-background-color);
+    padding: 10px;
+    border-radius: 10px;
+    width: 14rem;
+    margin: 1rem;
+}
+
+.image {
+    display: flex;
+    border-radius: 50%;
+    height: 12rem;
+    width: 12rem;
+    background-color: var(--card-image-color);
+    padding: 0.5rem;
+}
+
+.image .img {
+    height: 10rem;
+    border-radius: 50%;
+    height: 11rem;
+    width: 11rem;
+    
+}
+
+.i1 {
+    background:url(../img/20230322_115856[1273].jpg), no-repeat;
+    background-size: cover;
+}
+.i2 {
+    background:url(../img/20230322_115939[1272].jpg), no-repeat;
+    background-size: cover;
+}
+.i3 {
+    background:url(../img/20230322_120013[1271].jpg), no-repeat;
+    background-size: cover;
+}
+.i4 {
+    background:url(../img/20230322_120051[1270].jpg), no-repeat;
+    background-size: cover;
+}
