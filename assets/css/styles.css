@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Questrial&display=swap');
 
 :root {
-    --background-color: #48233c;
+    /* --background-color: #48233c;
     --primary-color: #d4e4bc;
     --header-color: #96acb7;
     --card-background-color:  #36558f;
-    --card-image-color: #40376e;
+    --card-image-color: #40376e; */
+    --background-color: #eaf7cf;
+    --primary-color: #000f08;
+    --header-color: #1c3738;
+    --card-background-color:  #5c9ead;
+    --card-image-color: #4d4847;
+
 }
 
 * {
